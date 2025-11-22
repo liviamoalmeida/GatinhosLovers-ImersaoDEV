@@ -1,0 +1,182 @@
+[
+    {
+        "nome": "Biscoito",
+        "genero": "Macho",
+        "cor": "Laranja",
+        "descricao": "Um docinho de pelo macio e alaranjado que adora um colinho e não dispensa um bom cafuné. É o companheiro perfeito para dias de preguiça no sofá.",
+        "personalidade": "Calmo e carinhoso",
+        "historia": "Encontrado em uma caixa de sapatos com seus irmãos em um dia frio, Biscoito é um verdadeiro sobrevivente. Desde o resgate, mostrou-se um gatinho extremamente grato e afetuoso, que só quer um lar quentinho e seguro para retribuir todo o amor que recebeu.",
+        "curiosidade": "É um especialista em encontrar o melhor lugar da casa para tirar uma longa soneca ao sol.",
+        "imagem": "https://images.pexels.com/photos/34762300/pexels-photo-34762300.jpeg?_gl=1*bhvw4i*_ga*MTcwODk0MDYxOS4xNzYzNzQ0MzA1*_ga_8JE65Q40S6*czE3NjM3NDQzMDUkbzEkZzEkdDE3NjM3NDQzNTYkajkkbDAkaDA."
+    },
+    {
+        "nome": "Frajola",
+        "genero": "Macho",
+        "cor": "Preto e Branco",
+        "descricao": "Um explorador nato com um miado que derrete corações. Suas manchinhas pretas e brancas lhe dão um ar charmoso e clássico. Ele adora investigar cada canto da casa.",
+        "personalidade": "Curioso e brincalhão",
+        "historia": "Resgatado do topo de uma árvore muito alta pelo corpo de bombeiros, Frajola provou desde cedo que não tem medo de altura. Ele adora escalar móveis e prateleiras, observando o mundo de cima como um verdadeiro rei da selva de apartamento.",
+        "curiosidade": "Seu brinquedo favorito é uma simples bolinha de papel, que ele caça e traz de volta como um cachorrinho.",
+        "imagem": "https://images.pexels.com/photos/6149528/pexels-photo-6149528.jpeg?_gl=1*en6po0*_ga*MTcwODk0MDYxOS4xNzYzNzQ0MzA1*_ga_8JE65Q40S6*czE3NjM3NDQzMDUkbzEkZzEkdDE3NjM3NDUwMzMkajU5JGwwJGgw"
+    },
+    {
+        "nome": "Luna",
+        "genero": "Fêmea",
+        "cor": "Preto",
+        "descricao": "Uma panterinha elegante e misteriosa, com olhos amarelos que parecem estrelas na noite. Luna é uma gata que aprecia a calma e observa tudo com muita atenção.",
+        "personalidade": "Observadora e independente",
+        "historia": "Luna vivia no pátio de uma biblioteca, e talvez por isso seja tão quieta e contemplativa. Ela aprendeu a apreciar o silêncio e a companhia dos livros, mas agora busca um colo para chamar de seu e uma janela para observar o mundo em segurança.",
+        "curiosidade": "Adora observar os passarinhos pela janela, como se estivesse assistindo a um filme.",
+        "imagem": "https://images.pexels.com/photos/905021/pexels-photo-905021.jpeg?_gl=1*g7656a*_ga*MTcwODk0MDYxOS4xNzYzNzQ0MzA1*_ga_8JE65Q40S6*czE3NjM3NDQzMDUkbzEkZzEkdDE3NjM3NDUxOTMkajI4JGwwJGgw"
+    },
+    {
+        "nome": "Mochi",
+        "genero": "Macho",
+        "cor": "Branco",
+        "descricao": "Uma bolinha de pelos branca e fofa como um algodão-doce. É tímido no começo, mas se transforma em um grude carinhoso depois que percebe que está em um ambiente seguro.",
+        "personalidade": "Tímido e doce",
+        "historia": "Mochi foi o menor de sua ninhada e sempre foi um pouco mais assustado que seus irmãos. Por isso, ele precisa de um pouco mais de paciência e amor para se soltar, mas quando confia, se transforma em um verdadeiro motor de ronronar e não sai de perto.",
+        "curiosidade": "Tem um talento especial para se esconder nas menores caixas de papelão que encontra.",
+        "imagem": "https://images.pexels.com/photos/93042/pexels-photo-93042.jpeg?_gl=1*149ctjm*_ga*MTcwODk0MDYxOS4xNzYzNzQ0MzA1*_ga_8JE65Q40S6*czE3NjM3NDQzMDUkbzEkZzEkdDE3NjM3NDUzODckajU4JGwwJGgw"
+    },
+    {
+        "nome": "Simba",
+        "genero": "Macho",
+        "cor": "Laranja",
+        "descricao": "Um líder nato com uma juba de pelos impressionante e um espírito aventureiro. Simba é um gato majestoso que adora ser o centro das atenções e conversar com seus humanos.",
+        "personalidade": "Confiante e vocal",
+        "historia": "Simba era o rei de uma pequena colônia de gatos de rua, sempre cuidando dos mais novos e garantindo que todos estivessem seguros. Agora, ele procura seu próprio reino, um lar onde possa reinar com muito carinho e receber todos os mimos que merece.",
+        "curiosidade": "Usa miados longos e variados para conversar e dizer exatamente o que quer.",
+        "imagem": "https://images.pexels.com/photos/979278/pexels-photo-979278.jpeg?_gl=1*1ekdw2w*_ga*MTcwODk0MDYxOS4xNzYzNzQ0MzA1*_ga_8JE65Q40S6*czE3NjM3NDQzMDUkbzEkZzEkdDE3NjM3NDQzNjEkajQkbDAkaDA."
+    },
+    {
+        "nome": "Pipoca",
+        "genero": "Fêmea",
+        "cor": "Tricolor",
+        "descricao": "Uma gatinha tricolor ágil e saltitante, cheia de energia e alegria. Pipoca está sempre pronta para uma brincadeira que envolva pular e correr pela casa.",
+        "personalidade": "Energética e divertida",
+        "historia": "Encontrada nos fundos de um cinema abandonado, ela recebeu o nome de Pipoca por sua mania de dar pulinhos de alegria quando está feliz ou animada. Ela traz vida e diversão para qualquer ambiente.",
+        "curiosidade": "É uma caçadora implacável de feixes de luz e sombras na parede.",
+        "imagem": "https://images.pexels.com/photos/34760125/pexels-photo-34760125.jpeg?_gl=1*1ebgm96*_ga*MTcwODk0MDYxOS4xNzYzNzQ0MzA1*_ga_8JE65Q40S6*czE3NjM3NDQzMDUkbzEkZzEkdDE3NjM3NDU2NjMkajYwJGwwJGgw"
+    },
+    {
+        "nome": "Amora",
+        "genero": "Fêmea",
+        "cor": "Cinza",
+        "descricao": "Uma gatinha cinza com um pelo aveludado e um temperamento doce. Amora é a definição de tranquilidade e adora um bom livro... para deitar em cima, claro.",
+        "personalidade": "Serena e afetuosa",
+        "historia": "Amora foi resgatada de um jardim onde passava os dias observando as flores. Ela é uma gata muito calma que se adapta facilmente a novos ambientes, contanto que tenha um cantinho macio para dormir e um humano para lhe dar carinho.",
+        "curiosidade": "Adora amassar pãozinho em cobertores fofos antes de se deitar.",
+        "imagem": "https://images.pexels.com/photos/1770918/pexels-photo-1770918.jpeg?_gl=1*mkgo49*_ga*MTcwODk0MDYxOS4xNzYzNzQ0MzA1*_ga_8JE65Q40S6*czE3NjM3NDQzMDUkbzEkZzEkdDE3NjM3NDU4NjgkajU5JGwwJGgw"
+    },
+    {
+        "nome": "Zeca",
+        "genero": "Macho",
+        "cor": "Preto e Branco",
+        "descricao": "Com seu bigodinho branco e jeito desengonçado, Zeca é o palhacinho da turma. É um gato muito sociável que se dá bem com todos, incluindo outros animais.",
+        "personalidade": "Sociável e engraçado",
+        "historia": "Zeca foi encontrado miando em um portão, pedindo para entrar. Ele claramente preferia a companhia de humanos à vida na rua. É um gatinho extremamente grato que adora fazer parte da rotina da casa e participar de todas as atividades.",
+        "curiosidade": "Quando corre muito rápido, às vezes derrapa nas curvas de um jeito muito engraçado.",
+        "imagem": "https://images.pexels.com/photos/31630198/pexels-photo-31630198.jpeg?_gl=1*106la5n*_ga*MTcwODk0MDYxOS4xNzYzNzQ0MzA1*_ga_8JE65Q40S6*czE3NjM3NDQzMDUkbzEkZzEkdDE3NjM3NDUwMzMkajU5JGwwJGgw"
+    },
+    {
+        "nome": "Mel",
+        "genero": "Fêmea",
+        "cor": "Laranja",
+        "descricao": "Uma gatinha laranja de olhos verdes expressivos. Mel é muito inteligente e aprende truques com facilidade, especialmente se houver um petisco como recompensa.",
+        "personalidade": "Inteligente e meiga",
+        "historia": "Mel foi cuidada por uma senhora que a ensinou a pedir a patinha. Infelizmente, sua antiga dona não pôde mais cuidar dela. Agora, ela espera uma nova família para mostrar toda a sua inteligência e doçura.",
+        "curiosidade": "Sabe sentar e dar a patinha quando pedem (e quando ela está com vontade).",
+        "imagem": "https://images.pexels.com/photos/14840459/pexels-photo-14840459.jpeg?_gl=1*1emkb3y*_ga*MTcwODk0MDYxOS4xNzYzNzQ0MzA1*_ga_8JE65Q40S6*czE3NjM3NDQzMDUkbzEkZzEkdDE3NjM3NDQzNjEkajQkbDAkaDA."
+    },
+    {
+        "nome": "Oliver",
+        "genero": "Macho",
+        "cor": "Tigrado",
+        "descricao": "Um clássico gato tigrado com um coração de ouro. Oliver é um companheiro leal que vai te seguir pela casa e se aninhar aos seus pés enquanto você trabalha.",
+        "personalidade": "Leal e companheiro",
+        "historia": "Oliver vivia com uma família que precisou se mudar para outro país. Ele é um gato acostumado com o ambiente doméstico e sente muita falta de ter um colo para chamar de seu. É o amigo perfeito para quem busca um companheiro fiel.",
+        "curiosidade": "Ronrona bem alto assim que recebe o primeiro cafuné do dia.",
+        "imagem": "https://images.pexels.com/photos/2646483/pexels-photo-2646483.jpeg?_gl=1*mia5xr*_ga*MTcwODk0MDYxOS4xNzYzNzQ0MzA1*_ga_8JE65Q40S6*czE3NjM3NDQzMDUkbzEkZzEkdDE3NjM3NDU4NjgkajU5JGwwJGgw"
+    },
+    {
+        "nome": "Sebastian",
+        "genero": "Macho",
+        "cor": "Cinza",
+        "descricao": "Um cavalheiro de pelos longos e cinzas, com um ar de nobreza. Sebastian é um gato sereno que aprecia um ambiente calmo e um carinho delicado na cabeça.",
+        "personalidade": "Majestoso e tranquilo",
+        "historia": "Sebastian viveu por muitos anos como o companheiro fiel de um senhor idoso. Após o falecimento de seu dono, ele busca um novo castelo para chamar de lar, onde possa passar seus dias de ouro em paz e conforto.",
+        "curiosidade": "Ele raramente mia. Em vez disso, comunica-se com pequenos trinados e chirps quando quer atenção.",
+        "imagem": "https://images.pexels.com/photos/9785874/pexels-photo-9785874.jpeg?_gl=1*1satopg*_ga*MTcwODk0MDYxOS4xNzYzNzQ0MzA1*_ga_8JE65Q40S6*czE3NjM3NDQzMDUkbzEkZzEkdDE3NjM3NDU4NjgkajU5JGwwJGgw"
+    },
+    {
+        "nome": "Bagunça",
+        "genero": "Macho",
+        "cor": "Tigrado",
+        "descricao": "Este filhote tigrado faz jus ao nome! É um turbilhão de energia, patas desajeitadas e amor. Perfeito para uma família que adora brincadeiras e não se importa com uma pequena desordem.",
+        "personalidade": "Desastrado e brincalhão",
+        "historia": "Bagunça foi encontrado em um armarinho de uma loja de artesanato, completamente enrolado em um novelo de lã. Ele é a prova viva de que a curiosidade pode levar a situações engraçadas, e agora só quer um lugar para gastar sua energia.",
+        "curiosidade": "Adora ajudar a trabalhar no computador, geralmente deitando-se sobre o teclado no meio de uma frase importante.",
+        "imagem": "https://images.pexels.com/photos/4492145/pexels-photo-4492145.jpeg?_gl=1*kmis6a*_ga*MTcwODk0MDYxOS4xNzYzNzQ0MzA1*_ga_8JE65Q40S6*czE3NjM3NDQzMDUkbzEkZzEkdDE3NjM3NDYwOTkkajMxJGwwJGgw"
+    },
+    {
+        "nome": "Íris",
+        "genero": "Fêmea",
+        "cor": "Branco com manchas",
+        "descricao": "Uma gatinha delicada com uma característica encantadora: um olho azul e outro verde. Íris é muito tímida e precisa de um lar paciente para florescer e mostrar sua doçura.",
+        "personalidade": "Tímida e gentil",
+        "historia": "Resgatada de um ambiente com muitos animais, Íris não estava acostumada com atenção individual. Ela está aprendendo a confiar nos humanos e cada pequeno progresso, como um ronronar baixinho, é uma grande vitória.",
+        "curiosidade": "Sua heterocromia (olhos de cores diferentes) a torna uma gatinha única e fascinante de se observar.",
+        "imagem": "https://images.pexels.com/photos/31595484/pexels-photo-31595484.jpeg?_gl=1*16nf130*_ga*MTcwODk0MDYxOS4xNzYzNzQ0MzA1*_ga_8JE65Q40S6*czE3NjM3NDQzMDUkbzEkZzEkdDE3NjM3NDYyMjkkajQxJGwwJGgw"
+    },
+    {
+        "nome": "Pirata",
+        "genero": "Macho",
+        "cor": "Preto",
+        "descricao": "Este valente gatinho preto tem apenas três patas, mas um espírito de aventura que vale por quatro! Pirata é a prova de que a resiliência pode ser inspiradora e muito fofa.",
+        "personalidade": "Corajoso e resiliente",
+        "historia": "Pirata perdeu uma de suas patas dianteiras em um acidente, mas isso não o impede de correr, pular e explorar. Ele se adaptou incrivelmente bem e sua alegria de viver é contagiante. Ele só precisa de uma família que veja além de sua deficiência.",
+        "curiosidade": "Consegue subir na árvore de gatos mais rápido do que a maioria dos gatos de quatro patas.",
+        "imagem": "https://images.pexels.com/photos/1307503/pexels-photo-1307503.jpeg?_gl=1*12zu8e7*_ga*MTcwODk0MDYxOS4xNzYzNzQ0MzA1*_ga_8JE65Q40S6*czE3NjM3NDQzMDUkbzEkZzEkdDE3NjM3NDUxOTMkajI4JGwwJGgw"
+    },
+    {
+        "nome": "Cleo",
+        "genero": "Fêmea",
+        "cor": "Tricolor",
+        "descricao": "Uma gata tricolor com personalidade de rainha. Cleo sabe o que quer e não hesita em comunicar suas vontades com miados expressivos. É exigente, mas extremamente leal a quem conquista seu coração.",
+        "personalidade": "Exigente e dramática",
+        "historia": "Cleo foi entregue ao abrigo por uma família que não entendia sua personalidade forte. Na verdade, ela é apenas uma gata inteligente que gosta de rotina e de ser tratada com o respeito que uma rainha merece. Em troca, oferece uma companhia fascinante.",
+        "curiosidade": "Possui um miado específico para o jantar está atrasado e outro completamente diferente para exijo carinho imediatamente.",
+        "imagem": "https://images.pexels.com/photos/674570/pexels-photo-674570.jpeg?_gl=1*1ebgm96*_ga*MTcwODk0MDYxOS4xNzYzNzQ0MzA1*_ga_8JE65Q40S6*czE3NjM3NDQzMDUkbzEkZzEkdDE3NjM3NDU2NjMkajYwJGwwJGgw"
+    },
+    {
+        "nome": "Nuvem",
+        "genero": "Fêmea",
+        "cor": "Branco",
+        "descricao": "Completamente branca e com pelos longos e sedosos, Nuvem parece flutuar pela casa. É uma gata surda, o que a torna extremamente conectada visualmente com seus humanos.",
+        "personalidade": "Doce e visual",
+        "historia": "Nuvem nasceu surda e, por isso, pode se assustar com toques inesperados. No entanto, ela é incrivelmente doce e aprendeu a se comunicar através do olhar e de vibrações. Ela precisa de um lar seguro, sem acesso à rua, onde possa viver em paz.",
+        "curiosidade": "Adora quando você pisca os olhos lentamente para ela, o famoso beijo de gato, e sempre pisca de volta.",
+        "imagem": "https://images.pexels.com/photos/2589464/pexels-photo-2589464.jpeg?_gl=1*b2zh7j*_ga*MTcwODk0MDYxOS4xNzYzNzQ0MzA1*_ga_8JE65Q40S6*czE3NjM3NDQzMDUkbzEkZzEkdDE3NjM3NDUzODckajU4JGwwJGgw"
+    },
+    {
+        "nome": "Cosmo",
+        "genero": "Macho",
+        "cor": "Preto",
+        "descricao": "Um gato preto com olhos que brilham como galáxias. Cosmo é um sonhador, adora observar as estrelas da janela e tem uma presença calma e reconfortante.",
+        "personalidade": "Sonhador e tranquilo",
+        "historia": "Cosmo foi encontrado em uma noite de céu estrelado perto de um observatório. Ele parece ter uma conexão especial com a noite e adora ambientes silenciosos onde pode relaxar e meditar. É o companheiro perfeito para noites tranquilas em casa.",
+        "curiosidade": "Ele tem uma pequena mancha branca no peito que se parece com a lua crescente.",
+        "imagem": "https://images.pexels.com/photos/1424687/pexels-photo-1424687.jpeg?_gl=1*gcswim*_ga*MTcwODk0MDYxOS4xNzYzNzQ0MzA1*_ga_8JE65Q40S6*czE3NjM3NDQzMDUkbzEkZzEkdDE3NjM3NDUxOTMkajI4JGwwJGgw"
+    },
+    {
+        "nome": "Jade",
+        "genero": "Fêmea",
+        "cor": "Tigrado",
+        "descricao": "Uma gatinha tigrada com lindos olhos verdes, como a pedra preciosa. Jade é muito apegada e adora ajudar nas tarefas de casa, seguindo seus humanos por toda parte.",
+        "personalidade": "Apegada e prestativa",
+        "historia": "Jade foi resgatada de um canteiro de obras, onde se escondia assustada. Apesar do início difícil, ela se revelou uma gatinha extremamente amorosa que só quer um colo seguro. Ela adora supervisionar a limpeza e a cozinha, sempre por perto para dar seu apoio moral.",
+        "curiosidade": "Ela conversa com pequenos resmungos e ronronados quando você fala com ela, como se estivesse respondendo.",
+        "imagem": "https://images.pexels.com/photos/3206572/pexels-photo-3206572.jpeg?_gl=1*1sd03wi*_ga*MTcwODk0MDYxOS4xNzYzNzQ0MzA1*_ga_8JE65Q40S6*czE3NjM3NDQzMDUkbzEkZzEkdDE3NjM3NDU4NjgkajU5JGwwJGgw"
+    }
+]

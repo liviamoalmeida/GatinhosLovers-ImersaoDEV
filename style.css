@@ -1,0 +1,584 @@
+/* --- IMPORTAÇÃO DE FONTES --- */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Pacifico&display=swap');
+
+:root {
+    --background: #F0F8FF;
+    --primary: #ADD8E6;
+    --secondary: #87CEEB;
+    --text: #333;
+    --highlight: #303960;
+    --white: #FFFFFF;
+}
+
+/* --- RESET E ESTILOS GLOBAIS --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background: var(--background);
+    color: var(--text);
+    min-height: 100vh;
+}
+
+/* --- CABEÇALHO --- */
+
+.logo{
+    fill: var(--highlight);
+    height: 150px;
+}
+
+header {
+    /* background: var(--highlight); */
+    padding: 1.5rem 2rem;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header h1 {
+    /* font-family: 'Pacifico', cursive; */
+    font-size: 3rem;
+    color: var(--white);
+    margin-bottom: 1.5rem;
+}
+
+
+.header-link {
+    text-decoration: none;
+    color: inherit;
+} 
+
+.navbar {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.header-cta {
+    display: inline-block;
+    background: var(--primary);
+    color: var(--white);
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform .2s ease, background .3s ease;
+}
+
+
+/* --- CONTAINER DE BUSCA E FILTROS --- */
+.search-and-filter-container {
+    max-width: 850px;
+    margin: 0 auto 2rem auto;
+    display: flex;
+    gap: 1rem;
+    background-color: var(--white);
+    padding: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+    border-left: 10px solid var(--secondary);
+}
+
+/* --- CONTROLES DE BUSCA E FILTRO --- */
+.search-container {
+    display: flex;
+    justify-content: center;
+}
+
+.filter-controls {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.search-container input {
+    width: 100%;
+}
+
+/* Estilos base para inputs, selects e botões de filtro */
+.filter-controls select,
+.search-container input,
+.clear-button {
+    padding: 0.8rem 1rem;
+    border-radius: 50px;
+    border: 2px solid #e0e0e073;
+    font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
+    transition: all 0.3s ease;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+/* Estilos específicos para os selects, incluindo a seta customizada */
+.filter-controls select {
+    flex-shrink: 0;
+    min-width: 120px;
+    background-color: var(--white);
+    padding-right: 2.5rem;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23303960' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.7rem center;
+}
+
+/* Efeito de foco para o campo de busca */
+.search-container input:focus {
+    outline: none;
+    border-color: var(--secondary);
+}
+
+/* Efeito de foco para os selects e botão de limpar */
+.filter-controls select:focus,
+.clear-button:focus {
+    outline: none;
+    border-color: var(--secondary);
+
+}
+
+/* Estilo do botão de busca */
+.search-container button {
+    padding: 0.8rem 1.5rem;
+    border-radius: 50px;
+    border: none;
+    background-color: var(--highlight);
+    color: var(--white);
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Efeito hover para o botão de busca */
+.search-container button:hover {
+    background-color: #4a5588;
+    transform: scale(1.05);
+}
+
+/* Estilo do botão "Limpar Filtros" */
+.clear-button {
+    background-color: transparent;
+    color: var(--highlight);
+    border: 2px solid var(--secondary);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Efeito hover para o botão "Limpar Filtros" */
+.clear-button:hover {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+    color: var(--highlight);
+}
+
+/* --- MEDIA QUERY PARA TELAS MENORES (RESPONSIVIDADE) --- */
+@media (max-width: 700px) {
+    .search-container {
+        flex-direction: column;
+    }
+}
+
+/* --- SEÇÃO HERO (DESTAQUE PRINCIPAL) --- */
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;                
+  background-image: url("paw-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;    
+  background-size: 1200px;        
+  opacity: 0.1;                  
+  z-index: 0;                    
+}
+
+.hero {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 5rem 7rem;
+  background: var(--white);
+  border-radius: 25px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.07);
+  align-items: center;
+  text-align: center;
+  position: relative; 
+  z-index: 1;         
+}
+
+.hero .hero-text {
+  position: relative;
+  font-weight: 650;
+  z-index: 2;
+}
+
+/* responsividade: reduz o SVG em telas pequenas para não "dominar" */
+@media (max-width: 768px) {
+  #background-hero::after {
+    background-position: bottom right;
+    background-size: 300px;  /* ajuste para o mobile */
+    opacity: 0.08;
+  }
+
+  .hero {
+    padding: 3rem 2rem;
+  }
+}
+
+
+.hero-text h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+    color: var(--highlight);
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    font-size: 1.1rem;
+    color: var(--highlight);
+    opacity: .8;
+    margin-bottom: 2rem;
+    line-height: 1.7;
+}
+
+.hero-cta {
+    display: inline-block;
+    background: var(--secondary);
+    color: var(--white);
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform .2s ease, background .3s ease;
+}
+
+.hero-cta:hover {
+    transform: scale(1.05);
+    background: #71b8d8;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 350px;
+    justify-self: center;
+} 
+
+/* --- CONTEÚDO PRINCIPAL --- */
+main {
+    flex-grow: 1;
+    padding: 2rem 1rem;
+}
+
+.card-container {
+    /* Layout em grid para os cards dos gatos */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* --- ESTILOS DOS CARDS INDIVIDUAIS --- */
+.card {
+    background-color: var(--white);
+    border-radius: 20px;
+    padding: 1.5rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    border-left: 10px solid var(--secondary);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efeito hover para os cards */
+.card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.card-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    background-color: #eee;
+}
+
+.card h2 {
+    font-family: 'Pacifico', cursive;
+    color: var(--highlight);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.card p {
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
+}
+
+/* Estilo do botão/link "Adotar" dentro do card */
+.card a {
+    margin-top: auto;
+    background-color: var(--highlight);
+    color: var(--white);
+    text-decoration: none;
+    padding: 0.7rem;
+    text-align: center;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Efeito hover para o botão do card */
+.card a:hover {
+    background-color: #4a5588;
+    transform: scale(1.05);
+}
+
+/* --- MENSAGEM DE "NENHUM RESULTADO" --- */
+.no-results {
+    font-size: 1.5rem;
+    color: #555;
+    text-align: center;
+    grid-column: 1 / -1;
+    padding: 3rem;
+}
+
+/* --- INDICADOR DE CARREGAMENTO --- */
+.loading-indicator {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 3rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--highlight);
+    font-weight: bold;
+}
+
+.loading-indicator.visible {
+    display: flex;
+}
+
+/* Animação de pulsação para o ícone de patinha no loading */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.loading-indicator .paw-svg {
+    fill: var(--highlight);
+    animation: pulse 0.5s infinite ease-in-out;
+}
+
+/* --- ESTILOS DO SKELETON LOADING (ESQUELETO DE CARREGAMENTO) --- */
+.skeleton {
+    border-color: #e0e0e0;
+    pointer-events: none;
+}
+
+.skeleton .skeleton-img,
+.skeleton .skeleton-text {
+    background: linear-gradient(90deg, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%);
+    background-size: 200% 100%;
+    animation: skeleton-loading 1.5s infinite linear;
+    border-radius: 10px;
+}
+
+.skeleton .skeleton-img {
+    width: 100%;
+    height: 180px;
+    margin-bottom: 1rem;
+}
+
+.skeleton .skeleton-text {
+    height: 20px;
+    margin-bottom: 1rem;
+    width: 80%;
+}
+
+.skeleton .skeleton-text.short {
+    width: 50%;
+}
+
+@keyframes skeleton-loading {
+    0% {
+        background-position: 200% 0;
+    }
+
+    100% {
+        background-position: -200% 0;
+    }
+}
+
+/* --- CLASSE PARA ACESSIBILIDADE (ESCONDER ELEMENTOS VISUALMENTE) --- */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+/* --- RODAPÉ --- */
+.footer {
+    background-color: var(--highlight);
+    color: var(--primary);
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+}
+
+.footer-sponsors {
+    display: flex;
+    justify-content: center;
+    gap: 1rem 3rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.footer-sponsors p {
+    font-size: 0.9rem;
+}
+
+.footer-sponsors a {
+    color: var(--white);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-sponsors a:hover {
+    color: var(--secondary);
+    text-decoration: underline;
+}
+
+/* --- BOTÃO "VOLTAR AO TOPO" --- */
+#back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 1000;
+    background-color: #46569d;
+    color: var(--white);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='white' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+}
+
+#back-to-top:hover {
+    background-color: #4a5588;
+}
+
+/* --- PÁGINA DE DETALHES DO GATO --- */
+.detalhes-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.detalhe-card {
+    background-color: var(--white);
+    border-radius: 20px;
+    padding: 2rem 2.5rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-top: 10px solid var(--secondary);
+}
+
+/* Link para voltar à página inicial */
+.back-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: var(--highlight);
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-bottom: 1.5rem;
+    align-self: flex-start;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+.detalhe-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+}
+
+.detalhe-card h2 {
+    font-family: 'Pacifico', cursive;
+    color: var(--highlight);
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.detalhe-card h3 {
+    color: var(--highlight);
+    border-bottom: 2px solid var(--primary);
+    padding-bottom: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Botão principal de adoção na página de detalhes */
+.adopt-button {
+    display: block;
+    width: 100%;
+    margin-top: 2rem;
+    background-color: var(--highlight);
+    color: var(--white);
+    text-decoration: none;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.adopt-button:hover {
+    background-color: #4a5588;
+    transform: scale(1.02);
+}
